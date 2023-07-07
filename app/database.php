@@ -1,7 +1,8 @@
 <?php
-$servername = "localhost";
+$servername = "mysql-container";
+$dbport = '3306';
 $username = "root";
-$password = "";
+$password = "lksflj4518";
 $database = "sending";
 $variable = "test";
 
