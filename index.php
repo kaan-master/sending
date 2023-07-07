@@ -51,10 +51,11 @@ include 'app/database.php';
             <th>Netmask</th>
             <th>Dns</th>
             <th>Type</th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
+
+            <th>Send</th>
+            <th>Edit</th>
+            <th>Print</th>
+            <th>Copy</th>
             <th></th>
             </tr>
             ";
@@ -72,7 +73,6 @@ include 'app/database.php';
             <td class="data"><?= $row['gateway'] ?></td>
             <td class="data"><?= $row['netmask'] ?></td>
             <td class="data"><?= $row['dns'] ?> </td>
-            <td class="data"><?= $row['netwerk'] ?></td>
             <td class="data"><?= $row['netwerk'] ?></td>
          
          <?php 
